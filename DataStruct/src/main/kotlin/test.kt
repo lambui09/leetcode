@@ -21,6 +21,10 @@ fun main() {
     list.append(5)
     println(list)
     //insert node
+    for (i in 6..8){
+        list.insertIndex(-1*i, 2)
+    }
+    println("After insert : $list")
 
 
 }
@@ -89,10 +93,14 @@ class LinkedList<T> {
     }
 
     fun insertIndex(value: T, index: Int): Node<T> {
-        if (isEmpty()){
-            push(value)
-        }
+//        if (isEmpty()){
+//            push(value)
+//        }
         val afterNode = nodeAt(index)
+        if (tail == afterNode){
+            append(value)
+            return tail!!
+        }
         val newNode = Node(value, afterNode?.next)
         afterNode?.next = newNode
         return newNode
