@@ -5,6 +5,8 @@ import dynamicProgramming.LongestPalindrome.longestPalindrome2
 import dynamicProgramming.LongestPalindrome.longestPalindrome3
 import dynamicProgramming.LongestPalindrome.longestPalindromeDynamic
 import dynamicProgramming.MaxArray
+import dynamicProgramming.PascalTrigle.generate
+import dynamicProgramming.PascalTrigle.pascalTrigleAtposition
 
 fun main(args: Array<String>) {
     val nums = intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
@@ -14,5 +16,8 @@ fun main(args: Array<String>) {
 //    println(longestPalindromeDynamic("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"))
 //    println(MaxArray.maxSubArray(nums2))
 
-    fibo2(25)
+//    fibo2(25)
+    generate(3)
+
+//    println("${pascalTrigleAtposition(3)}")
 }
