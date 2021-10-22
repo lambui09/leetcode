@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 //    println(MaxArray.maxSubArray(nums2))
 
 //    fibo2(25)
-    generate(3)
+    generate(2)
 
 //    println("${pascalTrigleAtposition(3)}")
 }
