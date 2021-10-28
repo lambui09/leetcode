@@ -1,6 +1,7 @@
 import dynamicProgramming.BuyAndSell.maxProfit
 import dynamicProgramming.Fibona.fibo1
 import dynamicProgramming.Fibona.fibo2
+import dynamicProgramming.Fibona.fiboBest
 import dynamicProgramming.LongestPalindrome.longestPalindrome
 import dynamicProgramming.LongestPalindrome.longestPalindrome2
 import dynamicProgramming.LongestPalindrome.longestPalindrome3
@@ -16,12 +17,15 @@ fun main(args: Array<String>) {
 //    val nums2 = intArrayOf(5, 4, -1, 7, 8)
     val nums2 = intArrayOf(7,1,5,3,6,4)
     val nums3 = intArrayOf(1,2,4,2,5,7,2,4,9,0,9)
+    val nums1 = intArrayOf(7,6,4,3,1)
 
 //    println(longestPalindrome("babad"))
 //    println(longestPalindromeDynamic("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"))
 //    println(MaxArray.maxSubArray(nums2))
 
 //    fibo2(25)
+//    println(fiboBest(25))
+
     //    println("${pascalTrigleAtposition(3)}")
 //    generate(2)
 //    matrix()
