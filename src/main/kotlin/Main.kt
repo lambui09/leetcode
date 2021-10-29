@@ -1,35 +1,20 @@
 import dynamicProgramming.BuyAndSell.maxProfit
-import dynamicProgramming.Fibona.fibo1
-import dynamicProgramming.Fibona.fibo2
-import dynamicProgramming.Fibona.fiboBest
-import dynamicProgramming.LongestPalindrome.longestPalindrome
-import dynamicProgramming.LongestPalindrome.longestPalindrome2
-import dynamicProgramming.LongestPalindrome.longestPalindrome3
-import dynamicProgramming.LongestPalindrome.longestPalindromeDynamic
-import dynamicProgramming.Matrix2D.matrix
-import dynamicProgramming.MaxArray
-import dynamicProgramming.MaxArray.maxSubArray
-import dynamicProgramming.PascalTrigle.generate
-import dynamicProgramming.PascalTrigle.pascalTrigleAtposition
+import dynamicProgramming.CountBits.binary
+import dynamicProgramming.CountBits.countBits
 
 fun main(args: Array<String>) {
     val nums = intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
 //    val nums2 = intArrayOf(5, 4, -1, 7, 8)
-    val nums2 = intArrayOf(7,1,5,3,6,4)
-    val nums3 = intArrayOf(1,2,4,2,5,7,2,4,9,0,9)
-    val nums1 = intArrayOf(7,6,4,3,1)
+    val nums2 = intArrayOf(7, 1, 5, 3, 6, 4)
+    val nums3 = intArrayOf(1, 2, 4, 2, 5, 7, 2, 4, 9, 0, 9)
+    val nums1 = intArrayOf(7, 6, 4, 3, 1)
+    val bb =
+        "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"
 
 //    println(longestPalindrome("babad"))
-//    println(longestPalindromeDynamic("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"))
+//    println(longestPalindromeDynamic())
 //    println(MaxArray.maxSubArray(nums2))
-
-//    fibo2(25)
-//    println(fiboBest(25))
-
-    //    println("${pascalTrigleAtposition(3)}")
-//    generate(2)
-//    matrix()
-    println("${maxProfit(nums3)}")
-
+//    println("${countBits(5)}")
+    println("${binary(2)}")
 
 }
