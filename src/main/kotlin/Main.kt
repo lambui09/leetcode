@@ -1,6 +1,7 @@
 import dynamicProgramming.BuyAndSell.maxProfit
 import dynamicProgramming.CountBits.binary
 import dynamicProgramming.CountBits.countBits
+import dynamicProgramming.IsSubsequence.isSubsequence
 
 fun main(args: Array<String>) {
     val nums = intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)
@@ -15,6 +16,7 @@ fun main(args: Array<String>) {
 //    println(longestPalindromeDynamic())
 //    println(MaxArray.maxSubArray(nums2))
 //    println("${countBits(5)}")
-    println("${binary(2)}")
+//    println("${binary(2)}")
+   println("${isSubsequence("abc", "ahbgdc")}")
 
 }
